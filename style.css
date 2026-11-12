@@ -91,10 +91,42 @@ h1, h2, h3, /* Celular (menos de 768px): banner más bajito */
     margin: 12px 0 0;
 }
 
+/* Presentación */
+.etiqueta {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .3em;
+    color: var(--texto-suave);
+    margin-bottom: 8px;
+}
+
+.titulo-principal {
+    font-weight: 700;
+    color: var(--salvia-oscuro);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    margin-bottom: 16px;
+}
+
+.presentacion p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.presentacion code {
+    background-color: var(--rosa);
+    color: #8E4A55;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
 /* Celular y tablet (menos de 1200px): la imagen queda debajo del texto */
 /* Por defecto Bootstrap ya la apila, así que solo ajustamos su tamaño */
 .imagen {
+    display: block;
+    width: 100%;
     height: 250px;
+    object-fit: contain;
 }
 
 /* Escritorio (1200px en adelante): la imagen queda al lado del texto */

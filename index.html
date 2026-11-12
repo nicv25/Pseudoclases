@@ -45,16 +45,21 @@
         </header>
 
         <!-- 3. PRESENTACIÓN: texto | imagen -->
-        <section class="row row-cols-1 row-cols-xl-2 p-5">
-            <div class="col d-flex flex-column text-center align-items-start">
-                <h1>Título principal</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+        <section class="row row-cols-1 row-cols-xl-2 p-4 p-md-5 align-items-center presentacion">
+            <div class="col d-flex flex-column align-items-start">
+                <span class="etiqueta">01. ¿QUÉ SON?</span>
+                <h2 class="titulo-principal">Pseudoclases: el estilo de cada momento</h2>
+                <p>Una <strong>pseudoclase</strong> es una palabra que se escribe después de un selector con dos
+                    puntos (<code>:</code>) y le da estilo a un elemento <strong>solo cuando está en un estado
+                    especial</strong>: cuando le pasas el mouse, cuando lo marcas, cuando es el primero de una lista o
+                    cuando un campo está mal escrito.</p>
+                <p>No tienes que agregar clases nuevas en el HTML: el navegador detecta el estado y aplica el estilo
+                    solo. Abajo encuentras las 18 más usadas; <strong>pasa el mouse o toca cada tarjeta</strong> para
+                    verla en acción.</p>
             </div>
             <div class="col d-block d-md-none d-xl-block">
-                <div class="imagen bg-secondary-subtle d-flex justify-content-center align-items-center">
-                    Imagen
-                </div>
+                <img src="img/anatomia-pseudoclase.svg" class="imagen"
+                    alt="Anatomía de una pseudoclase: selector boton, pseudoclase :hover y el estilo; el botón cambia de color con el mouse encima">
             </div>
         </section>
 
